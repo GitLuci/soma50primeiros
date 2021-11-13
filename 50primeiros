@@ -1,0 +1,8 @@
+voltas = 1
+num = 1
+numa = 2
+while (voltas != 50):
+    print("Volta numero {} numeros é \n {} + {} = {}".format(voltas, num, numa, num + numa))
+    num = num + numa
+    voltas += 1
+    numa += 1
